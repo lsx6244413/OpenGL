@@ -1,0 +1,18 @@
+﻿Build started 2016/9/9 20:20:10.
+     1>Project "F:\WorkSpace\OpenGL\Test\Test\Test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\VS2012\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt Test.cpp
+         Test.cpp
+     1>Test.cpp(161): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>Test.cpp(193): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Test.cpp(276): warning C4018: '<' : signed/unsigned mismatch
+     1>Test.cpp(279): warning C4018: '<' : signed/unsigned mismatch
+     1>Test.cpp(297): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         E:\VS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\WorkSpace\OpenGL\Test\x64\Debug\Test.exe" /INCREMENTAL /NOLOGO glew32.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\WorkSpace\OpenGL\Test\x64\Debug\Test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\WorkSpace\OpenGL\Test\x64\Debug\Test.lib" /MACHINE:X64 x64\Debug\Test.obj
+         Test.vcxproj -> F:\WorkSpace\OpenGL\Test\x64\Debug\Test.exe
+     1>Done Building Project "F:\WorkSpace\OpenGL\Test\Test\Test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.81
